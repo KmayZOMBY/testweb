@@ -1,4 +1,4 @@
-h1, h6 {
+h1, h4, h6 {
   font-family: Poppins;
   text-align: center;
   color: #034D6E;
@@ -7,6 +7,10 @@ h1, h6 {
 h6 {
   font-size: 0.8em;
   letter-spacing: 0.25em;
+}
+
+.space-section {
+  margin: 100px auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
