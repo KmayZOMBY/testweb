@@ -1,4 +1,5 @@
 $main-colour: #034D6E;
+$main-colour-brighter: #0B73A5;
 $second-colour: white;
 $header-font: Poppins;
 
@@ -16,4 +17,13 @@ h6 {
 
 .space-section {
   margin: 100px auto;
+}
+
+.btn-ps {
+  background-color: $main-colour;
+  color: $second-colour;
+  &:hover {
+    color: $second-colour;
+    background-color: $main-colour-brighter;
+  }
 }

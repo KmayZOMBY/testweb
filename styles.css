@@ -13,4 +13,13 @@ h6 {
   margin: 100px auto;
 }
 
+.btn-ps {
+  background-color: #034D6E;
+  color: white;
+}
+.btn-ps:hover {
+  color: white;
+  background-color: #0B73A5;
+}
+
 /*# sourceMappingURL=styles.css.map */
