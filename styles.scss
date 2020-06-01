@@ -1,8 +1,14 @@
-$main-colour: blue;
+$main-colour: #034D6E;
+$header-font: Poppins;
 
 
-h1 {
-  margin: auto;
+h1, h6 {
+  font-family:$header-font;
   text-align: center;
   color: $main-colour;
+}
+
+h6 {
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
 }

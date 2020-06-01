@@ -1,7 +1,12 @@
-h1 {
-  margin: auto;
+h1, h6 {
+  font-family: Poppins;
   text-align: center;
-  color: blue;
+  color: #034D6E;
+}
+
+h6 {
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
 }
 
 /*# sourceMappingURL=styles.css.map */
