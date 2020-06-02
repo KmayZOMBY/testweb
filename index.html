@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -20,31 +20,31 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <!-- brand section -->
-    <div class="container text-center">
-      <img src="images\Perspi-Shield-350x175px.jpg" alt="Perpsi-Shield Antiperspirant">
+    <div class="container-fluid text-center">
+      <img src="images\Perspi-Shield-350x175px.jpg" class="img-fluid" alt="Perpsi-Shield Antiperspirant">
       <h6>ALUMINIUM FREE DEODORANTS / SWEAT LINERS / ANTIPERSPIRANT-DEODORANT WIPES / SWEAT PROOF CLOTHING</h6>
     </div>
 
 <!-- 1st section -->
 <div class="container-fluid space-section">
   <div class="row">
-    <div class="col">
-      <img src="images\600PX - 24hr.png" class="img-fluid" alt="Perspi-Shield 24hr Deodorant">
+    <div class="col col-6 col-md">
+      <a href="#24hr"><img src="images\600PX - 24hr.png" class="img-fluid" alt="Perspi-Shield 24hr Deodorant"></a>
     </div>
-    <div class="col">
-      <img src="images\600PX - 72hr.png" class="img-fluid" alt="Perspi-Shield 72hr Deodorant">
+    <div class="col col-6 col-md">
+      <a href="#72hr"><img src="images\600PX - 72hr.png" class="img-fluid" alt="Perspi-Shield 72hr Deodorant"></a>
     </div>
-    <div class="col">
+    <div class="col col-6 col-md">
       <img src="images\600PX - PSWipes.png" class="img-fluid" alt="Perspi-Shield Wipes Antiperspirant & Deodorant">
     </div>
-    <div class="col">
+    <div class="col col-6 col-md">
       <img src="images\Perspi-Shield-liners-transparent.png" class="img-fluid" alt="Perspi-Shield Liners">
     </div>
   </div>
 </div>
 
 <div class="container">
-  <h6>See products</h6>
+  <a href="#seemore"><h6>See products</h6></a>
 <div class="container text-center">
   <svg class="bi bi-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
@@ -54,57 +54,94 @@
 </div>
 
 <!-- 2nd section -->
-<div class="container text-center space-section">
+<div class="container-fluid text-center space-section sct-blue" id="seemore">
 <h4>Made in the UK</h4>
-<p>LONG-LASTING DEODORANT</p>
-<p>Deodorant for all the family & for all skin types</p>
+<p class="white-p">LONG-LASTING DEODORANT</p>
+<p class="white-p">Deodorant for all the family & for all skin types</p>
 </div>
 
 <!-- 3rd section -->
 <div class="container text-center space-section">
 <h4>Suitable for all</h4>
-<div class="row">
-  <div class="col">
+<div class="row align-items-center">
+  <div class="col-md">
+    <img src="images\family-friends.png" class="img-fluid" alt="Family" style="max-width: 100px;">
     <p>Suitable for the whole family</p>
   </div>
-  <div class="col">
+  <div class="col-md">
+    <img src="images\gentle-on-skin.png" class="img-fluid" alt="Family" style="max-width: 100px;">
     <p>Aluminium free available</p>
   </div>
-  <div class="col">
-    <p>Gentle on all skin types</p>
+  <div class="col-md">
+    <img src="images\Vegan-friendly.png" class="img-fluid" alt="Family" style="max-width: 80px;">
+    <p>Vegan Friendly products</p>
   </div>
 </div>
 <a class="btn btn-ps" href="#" role="button">Where to buy Perspi-Shield</a>
 </div>
 
 
-<!-- 4th section -->
-<div class="container text-center space-section">
-<h4>24hr Deodorant</h4>
-<div class="row d-flex align-items-center">
-  <div class="col">
-    <img src="images\600PX - 24hr.png" alt="Perspi-Shield 24hr Deodorant">
-  </div>
-  <div class="col text-left">
-    <h4>Perspi-Shield 24hr Deodorant</h4>
-    <ul class="list-unstyled">
-  <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-</svg> 0% ALUMINIUM</li>
-  <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-</svg> 0% ALCOHOL</li>
-  <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-</svg> GENTLE ON SKIN</li>
-  <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-</svg> EASY APPLICATION WITH ROLL ON</li>
-  <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-</svg> Made in the UK</li>
-</ul>
-  </div>
+<!-- 24hr section -->
+<div class="container text-center space-section" id="24hr">
+    <h4>24hr Deodorant</h4>
+<div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md">
+        <img src="images\600PX - 24hr.png" class="img-fluid" alt="Perspi-Shield 24hr Deodorant">
+      </div>
+        <div class="col text-left">
+          <h4>Perspi-Shield 24hr Deodorant</h4>
+            <ul class="list-unstyled">
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> 0% ALUMINIUM</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> 0% ALCOHOL</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> GENTLE ON SKIN</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> EASY APPLICATION WITH ROLL ON</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> Made in the UK</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- 72hr section -->
+<div class="container text-center space-section" id="72hr">
+    <h4>72hr Deodorant</h4>
+<div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md">
+        <img src="images\600PX - 72hr.png" class="img-fluid" alt="Perspi-Shield 72hr Deodorant">
+      </div>
+        <div class="col text-left">
+          <h4>Perspi-Shield 72hr Deodorant</h4>
+            <ul class="list-unstyled">
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> 0% ALUMINIUM</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> 0% ALCOHOL</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> GENTLE ON SKIN</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> EASY APPLICATION WITH ROLL ON</li>
+              <li><svg class="bi bi-check2 text-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg> Made in the UK</li>
+            </ul>
+        </div>
+    </div>
 </div>
 </div>
 

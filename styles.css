@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h4, h6 {
   font-family: Poppins;
   text-align: center;
@@ -7,6 +11,10 @@ h1, h4, h6 {
 h6 {
   font-size: 0.8em;
   letter-spacing: 0.25em;
+}
+
+.white-p {
+  color: white;
 }
 
 .space-section {
@@ -24,6 +32,11 @@ h6 {
 
 .text-icon {
   color: #034D6E;
+}
+
+.sct-blue {
+  background-color: #0B73A5;
+  padding: 20px 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

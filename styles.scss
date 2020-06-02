@@ -3,6 +3,9 @@ $main-colour-brighter: #0B73A5;
 $second-colour: white;
 $header-font: Poppins;
 
+html {
+  scroll-behavior: smooth;
+}
 
 h1, h4, h6 {
   font-family:$header-font;
@@ -13,6 +16,10 @@ h1, h4, h6 {
 h6 {
   font-size: 0.8em;
   letter-spacing: 0.25em;
+}
+
+.white-p {
+  color: $second-colour;
 }
 
 .space-section {
@@ -30,4 +37,9 @@ h6 {
 
 .text-icon {
   color: $main-colour;
+}
+
+.sct-blue {
+  background-color: $main-colour-brighter;
+  padding: 20px 0px;
 }
