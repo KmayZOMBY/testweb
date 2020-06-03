@@ -4,7 +4,7 @@ var app = new Vue({
     image: './images/600PX - 24hr.png',
     link: 'http://bit.ly/2lvMsAU',
     producttitle: 'Perspi-Shield 24hr Deodorant',
-    price: '£9.50',
+    price: '£6.50',
     ingredients: 'alcohol',
     keys: [
       { text: '0% Alcohol' },
@@ -21,7 +21,7 @@ var app = new Vue({
     image: './images/600PX - 72hr.png',
     link: 'http://bit.ly/2lDa4Dq',
     producttitle: 'Perspi-Shield 72hr Deodorant',
-    price: '£6.80',
+    price: '£6.95',
     ingredients: 'no alcohol',
     keys: [
       { text: '0% Alcohol' },
@@ -57,7 +57,7 @@ var app = new Vue({
     image: './images/Perspi-Shield-liners-transparent.png',
     link: 'http://bit.ly/2lxGOy2',
     producttitle: 'Perspi-Shield Liners',
-    price: '£4.00',
+    price: '£5.95',
     ingredients: 'fabric',
     keys: [
       { text: 'All day protection' },
