@@ -3,11 +3,19 @@ $main-colour-brighter: #0B73A5;
 $second-colour: white;
 $header-font: 'Poppins', sans-serif;
 
+
 %htext-main {
   font-family:$header-font;
   text-align: center;
   color: $main-colour;
 }
+
+//smooth scroll for all clickable elements
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+
 
 html {
   scroll-behavior: smooth;
