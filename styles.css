@@ -1,22 +1,45 @@
-html {
-  scroll-behavior: smooth;
-}
-
 h1, h4, h6 {
   font-family: Poppins;
   text-align: center;
   color: #034D6E;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h4 {
+  margin-bottom: 30px;
+}
+
 h3 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 h6 {
   font-size: 0.8em;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
 }
 
+@media screen and (min-width: 431px) {
+  .mobile-view {
+    display: none;
+  }
+
+  .desktop-view {
+    display: block;
+  }
+}
+@media screen and (max-width: 430px) {
+  .mobile-view {
+    display: block;
+  }
+
+  .desktop-view {
+    display: none;
+  }
+}
 .white-p {
   color: white;
 }

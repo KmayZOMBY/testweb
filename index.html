@@ -27,7 +27,8 @@
 <!-- brand section -->
     <div class="container-fluid text-center">
       <img src="images\Perspi-Shield-350x175px.jpg" class="img-fluid" alt="Perpsi-Shield Antiperspirant">
-      <h6>ALUMINIUM FREE DEODORANTS / SWEAT LINERS / ANTIPERSPIRANT-DEODORANT WIPES / SWEAT PROOF CLOTHING</h6>
+      <h6 class="mobile-view">LONG-LASTING DEODORANTS<br/> ROLL-ON, WIPES, LINERS</h6>
+      <h6 class="desktop-view">ALUMINIUM FREE DEODORANTS / SWEAT LINERS / ANTIPERSPIRANT-DEODORANT WIPES / SWEAT PROOF CLOTHING</h6>
     </div>
 
 <!-- 1st section -->
@@ -90,8 +91,8 @@
 
 
 <!-- 24hr section -->
-<div class="container text-center space-section" id="24hr">
-    <h4>24hr Deodorant</h4>
+<div class="container text-center space-section" style="padding:40px 0px;" id="24hr">
+    <h4>All day protection</h4>
 <div class="container-fluid">
     <div class="row align-items-center" id="app-24">
       <div class="col-md">
@@ -106,15 +107,17 @@
             </svg> {{ key.text }}</li>
             </ul>
           </div>
+          <div class="col text-center text-sm-left">
             <a :href="link" class="btn btn-ps" role="button" target="_blank">Shop Now</a><b style="margin-left:10px;">{{ price }}</b>
+          </div>
         </div>
     </div>
 </div>
 </div>
 
 <!-- 72hr section -->
-<div class="container text-center space-section" id="72hr">
-    <h4>72hr Deodorant</h4>
+<div class="container text-center space-section" style="padding:40px 0px;" id="72hr">
+    <h4>up to 72hr Protection</h4>
 <div class="container-fluid">
     <div class="row align-items-center" id="app-72">
       <div class="col-md">
@@ -129,7 +132,9 @@
           </svg> {{ key.text }}</li>
           </ul>
         </div>
+        <div class="col text-center text-sm-left">
           <a :href="link" class="btn btn-ps" role="button" target="_blank">Shop Now</a><b style="margin-left:10px;">{{ price }}</b>
+        </div>
         </div>
     </div>
 </div>
@@ -137,13 +142,16 @@
 
 <!-- Blue Banner -->
 <div class="container-fluid text-center space-section sct-blue">
-  <img src="images\daily-tick.png" alt="Use daily" width="200px;" style="margin-bottom:15px;">
-  <h4 class="white-p">Use daily<br >for long-lasting protection</h4>
+  <div class="container">
+    <img src="images\daily-tick.png" alt="Use daily" width="120px;" style="margin-bottom:15px;">
+    <h4 class="white-p" style="line-height: 1.4em;">Use daily<br >for long-lasting protection</h4>
+  </div>
+
 </div>
 
 <!-- Wipes section -->
-<div class="container text-center space-section" id="Wipes">
-    <h4>Deodorant Wipes</h4>
+<div class="container text-center space-section" style="padding:40px 0px;" id="Wipes">
+    <h4>On-the-Go protection</h4>
 <div class="container-fluid">
     <div class="row align-items-center" id="app-wipes">
       <div class="col-md">
@@ -158,7 +166,9 @@
             </svg> {{ key.text }}</li>
             </ul>
           </div>
-          <a :href="link" class="btn btn-ps" role="button" target="_blank">Shop Now</a><b style="margin-left:10px;">{{ price }}</b>
+          <div class="col text-center text-sm-left">
+            <a :href="link" class="btn btn-ps" role="button" target="_blank">Shop Now</a><b style="margin-left:10px;">{{ price }}</b>
+          </div>
         </div>
     </div>
 </div>
@@ -166,8 +176,8 @@
 
 
 <!-- Liners section -->
-<div class="container text-center space-section" id="Liners">
-    <h4>Sweat Liners</h4>
+<div class="container text-center space-section" style="padding:40px 0px;" id="Liners">
+    <h4>Underarm Sweat Liners</h4>
 <div class="container-fluid">
     <div class="row align-items-center" id="app-liners">
       <div class="col-md">
@@ -182,21 +192,25 @@
           </svg> {{ key.text }}</li>
           </ul>
         </div>
+        <div class="col text-center text-sm-left">
           <a :href="link" class="btn btn-ps" role="button" target="_blank">Shop Now</a><b style="margin-left:10px;">{{ price }}</b>
+        </div>
         </div>
     </div>
 </div>
 </div>
 
+
+<!-- Featured in section -->
 <div class="container-fluid text-center space-gray">
   <div class="container">
     <h3>As featured in</h3>
     <div class="row">
-      <div class="col">
-        <img src="images\HealthMAGAZINE.png" class="img-fluid" alt="">
+      <div class="col-sm">
+        <img src="images\HealthMAGAZINE.png" width="200px" class="img-fluid" alt="">
       </div>
-      <div class="col">
-        <img src="images\Wedding-Ideas-2017-Logo.png" class="img-fluid" alt="">
+      <div class="col-sm">
+        <img src="images\Wedding-Ideas-2017-Logo.png" width="200px" class="img-fluid" alt="">
       </div>
     </div>
   </div>
