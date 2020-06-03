@@ -39,7 +39,7 @@ var app = new Vue({
     image: './images/600PX - PSWipes.png',
     link: 'https://www.the-antiperspirant-and-deodorant-company.com/product/perspi-shield-antiperspirant-deodorant-wipes/',
     producttitle: 'Perspi-Shield Deodorant Wipes',
-    price: '£12.00',
+    price: '£4.99',
     ingredients: 'no alcohol',
     keys: [
       { text: 'Antiperspirant properties' },

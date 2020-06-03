@@ -3,5 +3,5 @@ $(document).ready(function () {
   });
 
   $(document).ready(function () {
-    $("#footer").load("footer.html");
+    $("#footer").load("components/footer.html");
   });

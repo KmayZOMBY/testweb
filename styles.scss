@@ -13,6 +13,10 @@ h1, h4, h6 {
   color: $main-colour;
 }
 
+h3 {
+  margin-bottom: 15px;
+}
+
 h6 {
   font-size: 0.8em;
   letter-spacing: 0.25em;
@@ -24,6 +28,14 @@ h6 {
 
 .space-section {
   margin: 100px auto;
+}
+.space-gray {
+  padding: 100px 0px;
+  background-color: #E0E0E0;
+}
+
+.list-spacing {
+  margin: 40px 0px;
 }
 
 .btn-ps {
@@ -41,5 +53,5 @@ h6 {
 
 .sct-blue {
   background-color: $main-colour-brighter;
-  padding: 20px 0px;
+  padding: 50px 0px;
 }
