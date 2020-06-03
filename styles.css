@@ -43,6 +43,10 @@ h6 {
   .desktop-view {
     display: none;
   }
+
+  .padding-mobile {
+    padding: 20px 0px;
+  }
 }
 .white-p {
   color: white;
