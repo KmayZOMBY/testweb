@@ -3,7 +3,7 @@ var app = new Vue({
   data: {
     image: './images/600PX - 24hr.png',
     link: 'https://bit.ly/2lvMsAU',
-    producttitle: 'Perspi-Shield 24hr Deodorant',
+    producttitle: 'Perspi-Shield® 24hr Deodorant',
     price: '£6.50',
     ingredients: 'alcohol',
     keys: [
@@ -20,7 +20,7 @@ var app = new Vue({
   data: {
     image: './images/600PX - 72hr.png',
     link: 'https://bit.ly/2lDa4Dq',
-    producttitle: 'Perspi-Shield 72hr Deodorant',
+    producttitle: 'Perspi-Shield® 72hr Deodorant',
     price: '£6.95',
     ingredients: 'no alcohol',
     keys: [
@@ -38,7 +38,7 @@ var app = new Vue({
   data: {
     image: './images/600PX - PSWipes.png',
     link: 'https://www.the-antiperspirant-and-deodorant-company.com/product/perspi-shield-antiperspirant-deodorant-wipes/',
-    producttitle: 'Perspi-Shield Deodorant Wipes',
+    producttitle: 'Perspi-Shield® Deodorant Wipes',
     price: '£4.99',
     ingredients: 'no alcohol',
     keys: [
@@ -56,7 +56,7 @@ var app = new Vue({
   data: {
     image: './images/Perspi-Shield-liners-transparent.png',
     link: 'https://bit.ly/2lxGOy2',
-    producttitle: 'Perspi-Shield Liners',
+    producttitle: 'Perspi-Shield® Underarm Liners',
     price: '£5.95',
     ingredients: 'fabric',
     keys: [
